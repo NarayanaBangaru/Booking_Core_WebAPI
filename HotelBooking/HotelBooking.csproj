@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Migrations\20191012072512_InitialBooking.cs" />
+    <Compile Remove="Migrations\20191012072512_InitialBooking.Designer.cs" />
+    <Compile Remove="Migrations\20191012075019_SecondCreate.cs" />
+    <Compile Remove="Migrations\20191012075019_SecondCreate.Designer.cs" />
+    <Compile Remove="Migrations\20191012075524_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191012075524_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191012080102_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191012080102_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191012080507_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191012080507_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191012080921_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191012080921_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013044323_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013044323_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013045122_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013045122_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013050130_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013050130_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013055358_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013055358_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013060201_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013060201_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013060920_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013060920_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013061442_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013061442_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013061810_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013061810_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013062251_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013062251_BookingDBMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191013095636_BookingDBMigration.cs" />
+    <Compile Remove="Migrations\20191013095636_BookingDBMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+</Project>
